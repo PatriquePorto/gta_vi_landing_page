@@ -66,11 +66,15 @@ main {
   nav {
     @apply fixed top-0 left-0 w-full flex justify-between items-center md:p-16 p-5 z-[100];
   }
+
+  nav img {
+    @apply cursor-pointer;
+  }
   .gradient-title {
     @apply md:text-[8rem] text-[5rem] font-round-bold !font-extrabold uppercase md:leading-[7rem] leading-[4.5rem] text-center bg-gradient-to-r from-pink-400 via-red-400 to-orange-400 bg-clip-text text-transparent;
   }
   .hero-section {
-    @apply w-dvw h-dvh relative overflow-hidden;
+    @apply w-dvw h-dvh overflow-hidden;
 
     .scale-out {
       @apply object-cover md:scale-125 h-full;
@@ -79,11 +83,12 @@ main {
       @apply absolute h-full md:scale-125 top-0 object-cover;
     }
     .trailer-logo {
-      @apply absolute -bottom-5 w-48 left-1/2 -translate-x-1/2;
+      @apply absolute -bottom-2 w-48 left-1/2 -translate-x-1/2;
     }
+    
     .play-img {
       @apply rounded-full md:size-28 size-20 bg-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center;
-    }
+    } 
     .fake-logo-wrapper {
       @apply absolute z-50 xs:top-[9.5rem] sm:top-[12.8rem] md:top-[8.5rem] 2xl:top-44 3xl:top-48 left-1/2 -translate-x-1/2;
     }
@@ -251,4 +256,22 @@ main {
 
 .lucia-life-content {
   background: radial-gradient(ellipse, #111117 20%, transparent 70%);
+}
+
+
+/* Scroll Indicator Styles */
+.scroll-indicator {
+  position: absolute;
+  bottom: 1.8%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 32px;
+  height: 14px;
+  z-index: 10;
+}
+
+.scroll-indicator svg {
+  color: #ffb0c4;
+  width: 100%;
+  height: 100%;
 }

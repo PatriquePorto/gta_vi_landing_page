@@ -1,6 +1,6 @@
 const ComingSoon = () => {
   return (
-    <section className="entrance-message">
+    <section className="entrance-message -z-50">
       <div className="h-full col-center gap-10">
         <img src="/images/logo.webp" alt="logo" className="entrance-logo" />
 
