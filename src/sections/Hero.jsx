@@ -8,12 +8,12 @@ const Hero = () => {
   // Scroll Indicator
 const scrollIndicator = document.querySelector(".scroll-indicator");
 const bounceTimeline = gsap.timeline({
-  repeat: -1,
+  repeat: Infinity,
   yoyo: true,
 });
 
 bounceTimeline.to(scrollIndicator, {
-  y: 10,
+  y: 12,
   opacity: 0.6,
   duration: 1,
   ease: "power1.inOut",
@@ -63,8 +63,8 @@ bounceTimeline.to(scrollIndicator, {
       
       </div>
 
-        <div className="play-img cursor-pointer z-1 hover:scale-105 transition duration-300 ease-in-out fade-out">    
-               <img src="/images/play.svg" alt="play" className="w-12 ml-1" />    
+        <div className="play-img cursor-pointer w-32 h-32 flex top-123 left-232  z-1 hover:scale-105 transition duration-300 ease-in-out fade-out">    
+               <img src="/images/play.svg" alt="play" className="w-12 ml-1 color-black" />    
         </div>
 
       <div className="scroll-indicator">

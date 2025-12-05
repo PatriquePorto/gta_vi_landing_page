@@ -1,1 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#6e6a6b" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-play"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="78" height="78" rx="37.5" viewBox="1 2 20 20">
+  <defs>
+    <!-- Definição do degradê -->
+    <linearGradient id="gradGrayBlack" x1="10%" y2="40%" x2="100%" y1="100%">
+      <stop offset="0%" style="stop-color:#808080; stop-opacity:1" /> <!-- Cinza -->
+      <stop offset="100%" style="stop-color:#000000; stop-opacity:1" /> <!-- Preto -->
+    </linearGradient>
+  </defs>
+
+  <!-- Aplicando o degradê no preenchimento -->
+  <path d="M6.5 4.3
+           L17.8 11.2
+           Q19 12 17.8 12.8
+           L6.5 19.7
+           Q5 20.6 5 19
+           L5 6
+           Q5 4.4 6.5 4.3
+           Z"
+        fill="url(#gradGrayBlack)" />
+</svg>
+
+
+
+
