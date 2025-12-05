@@ -63,7 +63,7 @@ bounceTimeline.to(scrollIndicator, {
       
       </div>
 
-        <div className="play-img cursor-pointer w-32 h-32 flex top-123 left-232  z-1 hover:scale-105 transition duration-300 ease-in-out fade-out">    
+        <div className="play-img cursor-pointer w-33 h-33 flex top-123 left-238  z-1 hover:scale-105 transition duration-300 ease-in-out fade-out">    
                <img src="/images/play.svg" alt="play" className="w-12 ml-1 color-black" />    
         </div>
 

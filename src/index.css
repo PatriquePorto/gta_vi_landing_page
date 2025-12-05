@@ -32,6 +32,7 @@ body {
   overflow-x: hidden;
   font-family: "Round", sans-serif;
   background-color: black;
+  margin-top: 2;
 }
 
 main {
@@ -77,10 +78,10 @@ main {
     @apply w-dvw h-dvh overflow-hidden;
 
     .scale-out {
-      @apply object-cover md:scale-125 h-full;
+      @apply object-cover md:scale-125 w-full h-full;
     }
     .title-logo {
-      @apply absolute h-full md:scale-125 top-0 object-cover;
+      @apply absolute w-full h-full md:scale-125 left-0 top-0  object-cover;
     }
     .trailer-logo {
       @apply absolute -bottom-2 w-48 left-1/2 -translate-x-1/2;
