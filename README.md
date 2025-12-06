@@ -1,16 +1,82 @@
-# React + Vite
+# 🌴 GTA VI Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Project Status](https://img.shields.io/badge/Status-Development-yellow?style=for-the-badge)
+![Tech Stack](https://img.shields.io/badge/Stack-React_|_Tailwind_|_GSAP-pink?style=for-the-badge)
 
-Currently, two official plugins are available:
+<div align="center">
+  <img src="public/images/logo.webp" alt="GTA VI Logo" width="200" />
+  <br />
+  <p>A high-fidelity, interactive concept landing page for Grand Theft Auto VI.</p>
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📖 About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project is a fan-made landing page exploring the aesthetic and vibe of the upcoming **GTA VI**. It features smooth scroll animations, a custom design system reflecting the Vice City neon style, and fully responsive layouts.
 
-## Expanding the ESLint configuration
+Built with **React 19** and framed by the power of **Tailwind CSS v4** and **GSAP** for immersive interactions.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- **🎬 Immersive Hero Section**: Video backgrounds and scale animations.
+- **🎭 Scroll-Linked Animations**: Powered by GSAP ScrollTrigger for seamless storytelling as you explore.
+- **📱 Fully Responsive**: Mobile-first design ensures a perfect experience on all devices.
+- **🎨 Custom Design System**: verified color palettes (`--color-pink`, `--color-yellow`) and typography (`Long`, `Round`) matching the game's art direction.
+- **⚡ Modern Stack**: Utilizing the speed of Vite and the latest React features.
+
+## 🛠️ Tech Stack
+
+- **Frontend Library**: [React 19](https://react.dev/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animation**: [GSAP](https://gsap.com/) (ScrollTrigger)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+
+## 🚀 Getting Started
+
+1.  **Clone the repository**
+
+    ```bash
+    git clone https://github.com/yourusername/gta-landing-page.git
+    cd gta_landing_page
+    ```
+
+2.  **Install dependencies**
+
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server**
+    ```bash
+    npm run dev
+    ```
+
+## 📂 Project Structure
+
+```bash
+src/
+├── components/    # Reusable UI components
+├── sections/      # Main page sections (Hero, Jason, Lucia, etc.)
+├── constants/     # Static data and config
+├── index.css      # Global styles & Tailwind configuration
+└── App.jsx        # Main application entry
+```
+
+## 🎨 Design Tokens
+
+The project uses a dedicated set of design tokens to maintain visual consistency:
+
+- **Primary Colors**:
+  - 🟡 Yellow: `#fff9cb`
+  - 🌸 Pink: `#ffb0c4`
+- **Typography**:
+  - `Round-Bold` (Headings)
+  - `Long` (Display text)
+  - `Round` (Body text)
+
+---
+
+<p align="center">
+  Made with ❤️ by Patrique Porto
+</p>

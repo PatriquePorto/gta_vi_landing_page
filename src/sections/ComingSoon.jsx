@@ -15,6 +15,7 @@ const ComingSoon = () => {
           <img src="/images/x-logo.svg" className="md:w-52 w-40" />
         </div>
       </div>
+
     </section>
   )
 }

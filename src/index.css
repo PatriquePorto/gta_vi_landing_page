@@ -77,6 +77,10 @@ main {
     @apply md:text-[8rem] text-[5rem] font-round-bold font-extrabold uppercase md:leading-[7rem] leading-[4.5rem] text-center bg-gradient-to-r from-pink-400 via-red-400 to-orange-400 bg-clip-text text-transparent;
   }
 
+  .gradient-text {
+    @apply md:text-[2rem] text-[1rem] font-round-bold font-extrabold uppercase md:leading-[7rem] leading-[4.5rem] text-center bg-gradient-to-r from-pink-400 via-red-400 to-orange-400 bg-clip-text text-transparent;
+  }
+
   .hero-section {
     @apply w-dvw h-dvh overflow-hidden;
 
@@ -121,6 +125,10 @@ main {
     .text-wrapper {
       @apply mt-40 md:mt-60 2xl:mt-44 3xl:top-48;
     }
+  }
+
+  .text-section {
+    @apply inset-0 -translate-y-1/2 flex flex-col gap-8 justify-center items-start;
   }
 
   .jason {

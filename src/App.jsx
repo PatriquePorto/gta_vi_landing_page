@@ -6,7 +6,7 @@ import Hero from "./sections/Hero";
 import NavBar from "./sections/NavBar";
 import FirstVideo from "./sections/FirstVideo";
 import Jason from "./sections/Jason";
-
+import ViceText from "./sections/ViceText";
 gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
