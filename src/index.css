@@ -176,18 +176,18 @@ main {
   }
 
   .lucia-life {
-    @apply relative z-10 py-40 mt-60 flex lg:flex-row flex-col justify-between gap-5 w-dvw overflow-x-hidden;
+    @apply relative z-10 py-40 mt-60 -ml-50 flex lg:flex-row xl:flex-row flex-col justify-between gap-5 w-dvw overflow-x-hidden;
 
     h1 {
-      @apply text-yellow font-long uppercase text-8xl mb-20;
+      @apply  text-yellow font-long uppercase text-[5.5rem] mb-20;
     }
 
     h2 {
-      @apply text-pink md:text-5xl text-3xl mb-7 md:pe-20 pe-10;
+      @apply text-pink font-extrabold md:text-5xl text-3xl mb-7 md:pe-20 pe-10;
     }
 
     p {
-      @apply text-white md:text-2xl text-lg md:pe-28 pe-14;
+      @apply text-white font-extrabold md:text-3xl text-lg md:pe-28 pe-14;
     }
 
     p:last-of-type {
@@ -287,7 +287,7 @@ main {
 }
 
 .lucia-life-content {
-  background: radial-gradient(ellipse, #111117 20%, transparent 70%);
+  background:  radial-gradient(ellipse, #111117 20%, transparent 70%);
 }
 
 
