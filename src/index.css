@@ -132,18 +132,18 @@ main {
   }
 
   .jason {
-    @apply relative z-10 lg:ps-40 2xl:ps-80 ps-10 py-40 mt-60 flex lg:flex-row flex-col justify-between gap-5 w-dvw overflow-x-hidden;
+    @apply relative z-10 lg:ps-45 2xl:ps-85 ps-10 py-40 mt-20 flex lg:flex-row flex-col justify-between gap-5 w-dvw overflow-x-hidden;
 
     h1 {
-      @apply text-yellow font-long uppercase text-8xl mb-20;
+      @apply text-yellow font-long uppercase text-[7rem] mb-20;
     }
 
     h2 {
-      @apply text-pink md:text-5xl text-3xl mb-7 md:pe-20 pe-10;
+      @apply text-pink md:text-5xl font-extrabold text-3xl mb-7 md:pe-20 pe-10;
     }
 
     p {
-      @apply text-white md:text-2xl text-lg md:pe-28 pe-14;
+      @apply text-white md:text-2xl font-extrabold text-lg md:pe-28 pe-14;
     }
 
     .jason-1 {
